@@ -95,5 +95,5 @@ def search_by_cast(name_1: str, name_2: str) -> list:
 
 
 # test функции search_by_cast
-print(search_by_cast('Rose McIve', 'Ben Lamb'))
-print(search_by_cast('Jack Black', 'Dustin Hoffman'))
+# print(search_by_cast('Rose McIve', 'Ben Lamb'))
+# print(search_by_cast('Jack Black', 'Dustin Hoffman'))

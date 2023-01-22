@@ -6,7 +6,7 @@ from utils import get_all
 genre_blueprint = Blueprint('genre_blueprint', __name__)
 
 
-@genre_blueprint.get('/genere/<genre>/')
+@genre_blueprint.get('/<genre>/')
 def get_movie_by_genre(genre):
     """
     Views для вывода фильмов по жанру.

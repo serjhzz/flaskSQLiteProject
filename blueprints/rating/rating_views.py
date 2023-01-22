@@ -6,7 +6,7 @@ from utils import get_all
 rating_blueprint = Blueprint('rating_blueprint', __name__)
 
 
-@rating_blueprint.get('/rating/<value>/')
+@rating_blueprint.get('/<value>/')
 def get_movie_by_rating(value):
     """
     Views для вывода фильмов по рейтингу.

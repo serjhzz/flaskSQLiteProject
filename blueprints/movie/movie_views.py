@@ -30,7 +30,7 @@ def get_by_title(title):
     return jsonify(movie)
 
 
-@movie_blueprint.get('/movie/<from_year>/to/<to_year>/')
+@movie_blueprint.get('/<from_year>/to/<to_year>/')
 def range_release_years(from_year, to_year):
     """
     Views для вывода фильмов снятых в диапазоне дат.
